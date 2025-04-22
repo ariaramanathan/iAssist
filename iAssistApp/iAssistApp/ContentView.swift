@@ -30,7 +30,9 @@ struct ContentView: View {
         guard
             let phoneImage = UIImage(named: "phoneIcon")?.pngData()?.base64EncodedString(),
             let messagesImage = UIImage(named: "messageIcon")?.pngData()?.base64EncodedString(),
-            let facetimeImage = UIImage(named: "facetimeIcon")?.pngData()?.base64EncodedString()
+            let facetimeImage = UIImage(named: "facetimeIcon")?.pngData()?.base64EncodedString(),
+            let googleMapsImage = UIImage(named: "googleMapsIcon")?.pngData()?.base64EncodedString()
+                
         else {
             print("Missing icon image(s)")
             return
@@ -39,7 +41,8 @@ struct ContentView: View {
         let icons: [IconData] = [
             IconData(label: "Phone", url: "tel://", iconBase64: phoneImage),
             IconData(label: "Messages", url: "sms://", iconBase64: messagesImage),
-            IconData(label: "FaceTime", url: "facetime://", iconBase64: facetimeImage)
+            IconData(label: "FaceTime", url: "facetime://", iconBase64: facetimeImage),
+            IconData(label: "GoogleMaps", url: "comgooglemaps://", iconBase64: googleMapsImage) // 
         ]
 
         if let url = IconProfileGenerator.generateProfile(icons: icons) {
