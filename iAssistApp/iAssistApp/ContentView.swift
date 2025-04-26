@@ -9,37 +9,69 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var configURL: URL?
+    
+    let lightGreen = Color(red: 166/255, green: 239/255, blue: 179/255)
+    let tan = Color(red: 219/255, green: 191/255, blue: 189/255)
 
     var body: some View {
         
-        VStack(spacing: 20) {
+        ZStack {
+            Color(tan) // Tan background
+                .ignoresSafeArea()
             
-            Text("Welcome to iAssist")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .multilineTextAlignment(.center)
-            
-            Text("Instructions:")
-            
-            Text("1.Click Start to get started. Start will open another window. When a message pops up asking you for permission to download a profile, click allow.  \n 2. Go to settings app \n 2. Scroll down and click on general \n 3. Scroll down and click on 'vpn and device management' \n 4. Click on “iAssist” \n 5. Click install")
+            VStack(spacing: 20) {
                 
-            
-//            Button("Install All Icons") {
-//                generateIconProfile()
-//            }
-
-//            if let configURL = configURL {
-//                ShareLink(item: configURL) {
-//                    Label("Install Profile", systemImage: "square.and.arrow.up")
-//                }
-//                .padding()
-//            }
-            
-            Link("Start", destination: URL(string: "https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
-            
-            Link("Click here to go to settings", destination: URL(string: "app-prefs:/root=APPLE_ACCOUNT")!)
+                Text("Welcome to iAssist")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                
+                
+                
+                //            Button("Install All Icons") {
+                //                generateIconProfile()
+                //            }
+                
+                //            if let configURL = configURL {
+                //                ShareLink(item: configURL) {
+                //                    Label("Install Profile", systemImage: "square.and.arrow.up")
+                //                }
+                //                .padding()
+                //            }
+                
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("How to set up")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                    
+                    Group {
+                        Text("1. Tap **Start** below to begin. This will open a new window.")
+                        Text("2. When given two choices, tap **Allow**. Then click close. ")
+                        Text("3. Open the **Settings** app.")
+                        Text("4. Go to **General**, scroll down, and click on  **VPN & Device Management**.")
+                        Text("5. Tap on **iAssist**, then tap **Install**, and **install** again.")
+                    }
+                    .padding(.leading)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                
+                VStack(spacing: 12) {
+                    
+                    Link("Start!", destination: URL(string: "https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
+                        .font(.headline)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(lightGreen)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }
+                
+                //            Link("Start", destination: URL(string: //"https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
+                //
+                //            Link("Click here to go to settings", destination: URL(string: "app-prefs:/root=APPLE_ACCOUNT")!)
+            }
+            .padding()
         }
-        .padding()
     }
 
     func generateIconProfile() {
@@ -101,7 +133,7 @@ struct ContentView: View {
             let homeImage = UIImage(named: "homeIcon")?.pngData()?.base64EncodedString(),
             let voicememosImage = UIImage(named: "voicememosIcon")?.pngData()?.base64EncodedString(),
             let shortcutsImage = UIImage(named: "shortcutsIcon")?.pngData()?.base64EncodedString(),
-            let amazonmusicImage = UIImage(named: "amazonmusicIcon")?.pngData()?.base64EncodedString(),
+//            let amazonmusicImage = UIImage(named: "amazonmusicIcon")?.pngData()?.base64EncodedString(),
             let journalImage = UIImage(named: "journalIcon")?.pngData()?.base64EncodedString(),
             let fitnessImage = UIImage(named: "fitnessIcon")?.pngData()?.base64EncodedString()
         else {
