@@ -49,7 +49,7 @@ struct ContentView: View {
                         Text("2. When given two choices, tap **Allow**. Then click close. ")
                         Text("3. Open the **Settings** app.")
                         Text("4. Go to **General**, scroll down, and click on  **VPN & Device Management**.")
-                        Text("5. Tap on **iAssist**, then tap **Install**, and **install** again.")
+                        Text("5. Tap on **Custom Icons**, then tap **Install**, and **install** again.")
                     }
                     .padding(.leading)
                 }
@@ -57,7 +57,7 @@ struct ContentView: View {
                 
                 VStack(spacing: 12) {
                     
-                    Link("Start!", destination: URL(string: "https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
+                    Link("Start!", destination: URL(string: "https://priyadw00.github.io/iAssistWeb")!)
                         .font(.headline)
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -65,6 +65,8 @@ struct ContentView: View {
                         .foregroundColor(Color.white)
                         .cornerRadius(30)
                 }
+                
+                //app-settings:
                 
                 //            Link("Start", destination: URL(string: //"https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
                 //
