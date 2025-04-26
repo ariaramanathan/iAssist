@@ -11,17 +11,33 @@ struct ContentView: View {
     @State private var configURL: URL?
 
     var body: some View {
+        
         VStack(spacing: 20) {
-            Button("Install All Icons") {
-                generateIconProfile()
-            }
+            
+            Text("Welcome to iAssist")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+            
+            Text("Instructions:")
+            
+            Text("1.Click Start to get started. Start will open another window. When a message pops up asking you for permission to download a profile, click allow.  \n 2. Go to settings app \n 2. Scroll down and click on general \n 3. Scroll down and click on 'vpn and device management' \n 4. Click on “iAssist” \n 5. Click install")
+                
+            
+//            Button("Install All Icons") {
+//                generateIconProfile()
+//            }
 
-            if let configURL = configURL {
-                ShareLink(item: configURL) {
-                    Label("Install Profile", systemImage: "square.and.arrow.up")
-                }
-                .padding()
-            }
+//            if let configURL = configURL {
+//                ShareLink(item: configURL) {
+//                    Label("Install Profile", systemImage: "square.and.arrow.up")
+//                }
+//                .padding()
+//            }
+            
+            Link("Start", destination: URL(string: "https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
+            
+            Link("Click here to go to settings", destination: URL(string: "app-prefs:/root=APPLE_ACCOUNT")!)
         }
         .padding()
     }
@@ -165,7 +181,7 @@ struct ContentView: View {
     }
 }
 
-//
+
 //#Preview {
 //    ContentView()
 //}
