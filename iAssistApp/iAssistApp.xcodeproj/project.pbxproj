@@ -37,6 +37,22 @@
 			);
 			target = FEE14E2C2D7F829C0056499D /* iAssistApp */;
 		};
+		C8DAB5702DBF3C9900EE97DC /* Exceptions for "iAssistApp" folder in "iAssistAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				iAssistAD.swift,
+				iAssistBC.swift,
+			);
+			target = FEE14E3C2D7F82A30056499D /* iAssistAppTests */;
+		};
+		C8DAB5712DBF3C9900EE97DC /* Exceptions for "iAssistApp" folder in "iAssistAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				iAssistAD.swift,
+				iAssistBC.swift,
+			);
+			target = FEE14E462D7F82A30056499D /* iAssistAppUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +60,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C8DAB56B2DBF2CBD00EE97DC /* Exceptions for "iAssistApp" folder in "iAssistApp" target */,
+				C8DAB5702DBF3C9900EE97DC /* Exceptions for "iAssistApp" folder in "iAssistAppTests" target */,
+				C8DAB5712DBF3C9900EE97DC /* Exceptions for "iAssistApp" folder in "iAssistAppUITests" target */,
 			);
 			path = iAssistApp;
 			sourceTree = "<group>";
