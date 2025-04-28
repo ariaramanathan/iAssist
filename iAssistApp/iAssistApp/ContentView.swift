@@ -57,7 +57,7 @@ struct ContentView: View {
                 
                 VStack(spacing: 12) {
                     
-                    Link("Start!", destination: URL(string: "https://priyadw00.github.io/iAssistWeb")!)
+                    Link("Start!", destination: URL(string: "https://ariaramanathan.github.io/iAssist/")!)
                         .font(.headline)
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -66,11 +66,6 @@ struct ContentView: View {
                         .cornerRadius(30)
                 }
                 
-                //app-settings:
-                
-                //            Link("Start", destination: URL(string: //"https://priyadw00.github.io/iAssistWeb/manyIcons.mobileconfig")!)
-                //
-                //            Link("Click here to go to settings", destination: URL(string: "app-prefs:/root=APPLE_ACCOUNT")!)
             }
             .padding()
         }
