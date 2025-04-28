@@ -42,6 +42,7 @@
 			membershipExceptions = (
 				iAssistAD.swift,
 				iAssistBC.swift,
+				iAssistVid.swift,
 			);
 			target = FEE14E3C2D7F82A30056499D /* iAssistAppTests */;
 		};
@@ -50,6 +51,7 @@
 			membershipExceptions = (
 				iAssistAD.swift,
 				iAssistBC.swift,
+				iAssistVid.swift,
 			);
 			target = FEE14E462D7F82A30056499D /* iAssistAppUITests */;
 		};

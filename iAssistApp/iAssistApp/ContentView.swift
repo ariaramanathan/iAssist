@@ -13,74 +13,22 @@ struct ContentView: View {
     
     let lightGreen = Color(red: 166/255, green: 239/255, blue: 179/255)
     let tan = Color(red: 219/255, green: 191/255, blue: 189/255)
+    
+    // let topGradient =  //
     let gradientColors: [Color] = [
-        Color.blue,
-        Color.purple
+        Color(red: 0xfe / 255.0, green: 0xff / 255.0, blue: 0xcd / 255.0),
+        Color(red: 0xff/255.0, green:0xb1 / 255.0, blue: 0x94 / 255.0)
     ]
 
     var body: some View {
         TabView{
             iAssistBC()
             iAssistAD()
+//            iAssistVid()
         }
         .background(Gradient(colors: gradientColors))
         .tabViewStyle(.page)
-        .foregroundStyle(.white)
-//        ZStack {
-//            Color(tan) // Tan background
-//                .ignoresSafeArea()
-//            
-//            VStack(spacing: 20) {
-                
-//                Text("Welcome to iAssist")
-//                    .font(.largeTitle)
-//                    .fontWeight(.bold)
-//                    .multilineTextAlignment(.center)
-//                
-                
-                
-                //            Button("Install All Icons") {
-                //                generateIconProfile()
-                //            }
-                
-                //            if let configURL = configURL {
-                //                ShareLink(item: configURL) {
-                //                    Label("Install Profile", systemImage: "square.and.arrow.up")
-                //                }
-                //                .padding()
-                //            }
-                
-//                VStack(alignment: .leading, spacing: 12) {
-//                    Text("How to set up")
-//                        .font(.title2)
-//                        .fontWeight(.semibold)
-//                    
-//                    Group {
-//                        Text("1. Tap **Start** below to begin. This will open a new window.")
-//                        Text("2. When given two choices, tap **Allow**. Then click close. ")
-//                        Text("3. Open the **Settings** app.")
-//                        Text("4. Go to **General**, scroll down, and click on  **VPN & Device Management**.")
-//                        Text("5. Tap on **Custom Icons**, then tap **Install**, and **install** again.")
-//                    }
-//                    .padding(.leading)
-//                }
-//                .frame(maxWidth: .infinity, alignment: .leading)
-                
-//                VStack(spacing: 12) {
-//                    
-//                    Link("Start!", destination: URL(string: "https://ariaramanathan.github.io/iAssist/")!)
-//                        .font(.headline)
-//                        .frame(maxWidth: .infinity)
-//                        .padding()
-//                        .background(lightGreen)
-//                        .foregroundColor(Color.white)
-//                        .cornerRadius(30)
-//                }
-//                
-//               
-//            }
-//            .padding()
-        
+        .foregroundStyle(.black)        
     }
 
     func generateIconProfile() {

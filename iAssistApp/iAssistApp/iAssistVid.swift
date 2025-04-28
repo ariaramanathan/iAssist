@@ -1,14 +1,13 @@
 //
-//  iAssistBC.swift
+//  iAssistVid.swift
 //  iAssistApp
-// BC = Before Config (file)
 //
 //  Created by Aria Ramanathan on 4/28/25.
 //
 
 import SwiftUI
 
-struct iAssistBC: View {
+struct iAssistVid: View {
     var body: some View {
         VStack(){
             Text("Welcome to iAssist")
@@ -18,7 +17,7 @@ struct iAssistBC: View {
             Spacer()
             
             VStack(spacing: 20) {
-                Text("Set Up Part 1")
+                Text("Video Tutorial")
                     .font(.system(size: 30, weight: .heavy, design: .default))
                     .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
@@ -26,33 +25,17 @@ struct iAssistBC: View {
                         .padding(.horizontal)
                 
                
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("Tap **START** below to begin.")
-                        .font(.system(size: 25, weight: .regular, design: .default))
-
-                    Text("This will take you to Set Up Part 2.")
-                        .font(.system(size: 25, weight: .regular, design: .default))
-                }
+    
                 .frame(maxWidth: .infinity, alignment: .leading) // <-- Force left alignment
                 .padding(.horizontal)
             }
             .padding(.horizontal)
-           
-            ZStack{
-                Link("START", destination: URL(string: "https://ariaramanathan.github.io/iAssist/")!)
-                    .font(.title)
-                        .fontWeight(.semibold)
-                    .frame(width: 150, height: 50)
-                    .background(Color.orange)
-                        .cornerRadius(30)
-                .foregroundColor(.white)
-            }
-            Spacer()
+        Spacer()
         }
         .padding()
     }
 }
 
 #Preview {
-    iAssistBC()
+    iAssistVid()
 }
