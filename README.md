@@ -1,8 +1,9 @@
 ## iAssist 
 
-# Description
+## Description
 
-Modifies ioS home screen to create larger app icons for elderly users. 
+Modifies iOS home screen to create larger app icons for elderly users. 
+
 
 ## Authors
 
@@ -11,6 +12,3 @@ pdalalwhelan@smith.edu
 
 Aria Ramanathan
 aramanathan@smith.edu
-
-
-## Acknowledgments
