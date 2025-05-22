@@ -1,3 +1,3 @@
 ##iAssist 
 
-App which creates a more acessible home screen for elderly users by creating labeled app icons. 
+Modifies ioS home screen to create larger app icons for elderly users. 
