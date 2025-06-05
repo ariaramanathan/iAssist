@@ -83,36 +83,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 <!-- 
 Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `aramanathan`, `iAssist`, `priyadw00`, `priya-dalal-whelan`, `@gmail.com`, `priyadw00`, `iAssist`, `project_description`, `project_license`
 --> 
 
 In the past decade, Apple design ethos has trended away from real world representations and towards a sleek, digital first aesthetic.  While many apple users are now digital natives who are able to naviate this aestethic, many users, particularly the elderly, have found their home screens increasingly difficult to navitate. 
 
-We present iAssist as an intervention which converts app icons to more intuitive icons. So far, we have created custom icons for 58 of the most popular apps. If you'd like to submit an icon design to be included in the project, email priyadw00@gmail.com  
+iAssist is  a Swift app built to help users intall more intuitive app icons. So far, we have created custom icons for 58 of the most popular apps. 
 
-iAssist is still under development. If you have feedback on icon design or want to contribute to the codebase, please reach out! 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-<!--
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
---> 
-
-* [! [Swift][]]
+iAssist is still under development. If you have an icon you'd like to be included, feedback on icon design, or want to contribute to the codebase, please submit a pull request or reach out to us via email! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,13 +106,13 @@ iAssist is still under development. If you have feedback on icon design or want 
    swift --version 
    ```
 
-* Xcode -- XCode can be downloaded from the app store 
+* Xcode -- Download Xcode directly from the App Store
 
 * A physical iOS device -- not all iAssist functionality will run in the xCode simulator, so it is best tested on a personal device. 
 
-For in depth instructions on configuring Swift and xCode, see (here)[https://developer.apple.com/documentation/safari-developer-tools/installing-xcode-and-simulators] 
+For in depth instructions on configuring Swift and xCode, see [here](https://developer.apple.com/documentation/safari-developer-tools/installing-xcode-and-simulators)
 
-For instructions on configuring Swift for a windows device, see (here)[https://www.swift.org/blog/swift-on-windows/]
+For instructions on configuring Swift for a windows device, see [here](https://www.swift.org/blog/swift-on-windows/)
 
 
 ### Installation
@@ -169,7 +148,7 @@ All instruction provided here are also provided directly in the app.
 8. Tap blue **Install**, in top right corner. Tap install again if prompted. 
 9. Enjoy your new icons!       
 
-Click (here)[https://youtube.com/shorts/nSaJY9qA2BA?feature=share] to view demo video 
+Click [here](https://youtube.com/shorts/nSaJY9qA2BA?feature=share) to view demo video 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,9 +175,10 @@ Project Link: [https://github.com/ariaramanathan/iAssist](https://github.com/ari
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [The adminstrators of IOS settings URLS repository](https://github.com/FifiTheBulldog/ios-settings-urls)
 
-Finally, special thanks to Professor Johanna Brewer for the incredible support, guidance, and beleif in this project. 
+Thank you to the administrators of [IOS Settings URLS Repository](https://github.com/FifiTheBulldog/ios-settings-urls). This project would not have been possible without this compilation. 
+
+Special thanks to Professor Johanna Brewer for the incredible support, guidance, and constant belief in this project. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -206,7 +186,7 @@ Finally, special thanks to Professor Johanna Brewer for the incredible support, 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links 
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links --> 
 
 [contributors-shield]: https://img.shields.io/github/contributors/ariaramanathan/iAssist.svg?style=for-the-badge
 [contributors-url]: https://github.com/ariaramanathan/iAssist/graphs/contributors
