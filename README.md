@@ -31,18 +31,18 @@
 <br />
 <div align="center">
   <a href="https://github.com/ariaramanathan/iAssist">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="iAssistApp/iAssistApp/Assets.xcassets/AppIcon.appiconset/iAssist (1).png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">iAssist</h3>
 
   <p align="center">
-    project_description
+    An iOS for all the eyes to see 
     <br />
-    <a href="https://github.com/ariaramanathan/iAssist"><strong>Explore the docs »</strong></a>
+    »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ariaramanathan/iAssist">View Demo</a>
+    <a href="https://youtube.com/shorts/nSaJY9qA2BA">View Demo</a>
     &middot;
     <a href="https://github.com/ariaramanathan/iAssist/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
@@ -85,7 +85,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+<!-- 
 Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `aramanathan`, `iAssist`, `priyadw00`, `priya-dalal-whelan`, `@gmail.com`, `priyadw00`, `iAssist`, `project_description`, `project_license`
+--> 
+
+In the past decade, Apple design ethos has trended away from real world representations and towards a sleek, digital first aesthetic.  While many apple users are now digital natives who are able to naviate this aestethic, many users, particularly the elderly, have found their home screens increasingly difficult to navitate. 
+
+We present iAssist as an intervention which converts app icons to more intuitive icons. So far, we have created custom icons for 58 of the most popular apps. If you'd like to submit an icon design to be included in the project, email priyadw00@gmail.com  
+
+iAssist is still under development. If you have feedback on icon design or want to contribute to the codebase, please reach out! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,73 +117,70 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Swift -- most mac computers have Swift installed. To confirm, run 
+ ```sh
+   swift --version 
+   ```
+
+* Xcode -- XCode can be downloaded from the app store 
+
+* A physical iOS device -- not all iAssist functionality will run in the xCode simulator, so it is best tested on a personal device. 
+
+For in depth instructions on configuring Swift and xCode, see (here)[https://developer.apple.com/documentation/safari-developer-tools/installing-xcode-and-simulators] 
+
+For instructions on configuring Swift for a windows device, see (here)[https://www.swift.org/blog/swift-on-windows/]
+
 
 ### Installation
 
-1. Download and configure a Swift development enviornment. 
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/ariaramanathan/iAssist.git
    ```
-3. Change git remote url to avoid accidental pushes to base project
+2. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin ariaramanathan/iAssist
    git remote -v # confirm the changes
    ```
-4. Run apple 
+3. Enable developer mode on your device 
+
+<!-- help what else do you need to do -- certifications??>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+All instruction provided here are also provided directly in the app. 
 
-Click (here)[https://youtube.com/shorts/nSaJY9qA2BA?feature=share] to view demo video! 
+1. Install and open iAssist 
+2. Tap orange **start** button 
+3. Tap blue **download icons** button 
+4. Tap **allow** and then **close** 
+5. Tap return to iAssist 
+6. Tap orange **SETTINGS** button to open your phone's settings.                
+7. Tap **Profile Downloaded** directly below Apple ID
+8. Tap blue **Install**, in top right corner. Tap install again if prompted. 
+9. Enjoy your new icons!       
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Click (here)[https://youtube.com/shorts/nSaJY9qA2BA?feature=share] to view demo video 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/ariaramanathan/iAssist/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you have an idea for how to expand iAssist or a feature you'd like to see, please feel free to fork 
+If you have an idea for how to expand iAssist or a feature you'd like to see, please feel free to fork the repository or reach out to us if you'd like to collaborate. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -191,16 +196,18 @@ Project Link: [https://github.com/ariaramanathan/iAssist](https://github.com/ari
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [The adminstrators of IOS settings URLS repository](https://github.com/FifiTheBulldog/ios-settings-urls)
+
+Finally, special thanks to Professor Johanna Brewer for the incredible support, guidance, and beleif in this project. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links 
+
 [contributors-shield]: https://img.shields.io/github/contributors/ariaramanathan/iAssist.svg?style=for-the-badge
 [contributors-url]: https://github.com/ariaramanathan/iAssist/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ariaramanathan/iAssist.svg?style=for-the-badge
