@@ -187,7 +187,6 @@ Special thanks to Professor Johanna Brewer for the incredible support, guidance,
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links --> 
-
 [contributors-shield]: https://img.shields.io/github/contributors/ariaramanathan/iAssist.svg?style=for-the-badge
 [contributors-url]: https://github.com/ariaramanathan/iAssist/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ariaramanathan/iAssist.svg?style=for-the-badge
@@ -200,7 +199,7 @@ Special thanks to Professor Johanna Brewer for the incredible support, guidance,
 [license-url]: https://github.com/ariaramanathan/iAssist/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/priya-dalal-whelan
-[product-screenshot]: iAssistApp/iAssistApp/Assets.xcassets/AppIcon.appiconset/iAssist (1).png
+<!-- [product-screenshot]: iAssistApp/iAssistApp/Assets.xcassets/AppIcon.appiconset/iAssist (1).png --> 
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
