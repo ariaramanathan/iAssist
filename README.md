@@ -164,7 +164,9 @@ If you have an idea for how to expand iAssist or a feature you'd like to see, pl
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@priyadw00](https://twitter.com/priyadw00) - priyadw00@@gmail.com.com
+Priya Dalal-Whelan - [@priya-dalal-whelan](https://www.linkedin.com/in/priya-dalal-whelan/) - priyadw00@gmail.com 
+Aria Ramanathan - [@aria-ramanathan](https://www.linkedin.com/in/aria-ramanathan/) aramanathan@smith.edu 
+
 
 Project Link: [https://github.com/ariaramanathan/iAssist](https://github.com/ariaramanathan/iAssist)
 
