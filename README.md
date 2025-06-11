@@ -25,6 +25,8 @@
 <!-- [![project_license][license-shield]][license-url] --> 
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url]--> 
 
+<!-- add link to paper --> 
+
 
 
 <!-- PROJECT LOGO -->
@@ -165,7 +167,8 @@ If you have an idea for how to expand iAssist or a feature you'd like to see, pl
 ## Contact
 
 Priya Dalal-Whelan - [@priya-dalal-whelan](https://www.linkedin.com/in/priya-dalal-whelan/) - priyadw00@gmail.com 
-Aria Ramanathan - [@aria-ramanathan](https://www.linkedin.com/in/aria-ramanathan/) aramanathan@smith.edu 
+
+Aria Ramanathan - [@aria-ramanathan](https://www.linkedin.com/in/aria-ramanathan/) - aria.ramanathan@gmail.com 
 
 
 Project Link: [https://github.com/ariaramanathan/iAssist](https://github.com/ariaramanathan/iAssist)
@@ -178,7 +181,7 @@ Project Link: [https://github.com/ariaramanathan/iAssist](https://github.com/ari
 ## Acknowledgments
 
 
-Thank you to the administrators of [IOS Settings URLS Repository](https://github.com/FifiTheBulldog/ios-settings-urls). This project would not have been possible without this compilation. 
+Thank you to the administrators of [iOS Settings URLS Repository](https://github.com/FifiTheBulldog/ios-settings-urls). This project would not have been possible without this compilation. 
 
 Special thanks to Professor Johanna Brewer for the incredible support, guidance, and constant belief in this project. 
 
